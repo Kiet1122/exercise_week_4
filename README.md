@@ -17,20 +17,19 @@ Mục tiêu là **luyện tập các widget cơ bản, lập trình bất đồn
 
 ## Cấu trúc project
 
-````
+```
 
 lib/
 ├─ main.dart
-├─ list_view_page.dart
+├─ simple_shared_pref_page.dart
 ├─ grid_page.dart
-├─ shared_pref_page.dart
-├─ async_page.dart
-└─ challenge1_page.dart
-bin/
+├─ contact_list.dart
+├─ async_example_page.dart
+└─ challenge1.dart
 └─ challenge2.dart
-pubspec.yaml
 
-````
+
+```
 
 ---
 
@@ -120,4 +119,5 @@ dart run lib/challenge2.dart
 ```
 Mình có thể viết luôn **phiên bản siêu ngắn gọn 1 trang** cho README, chỉ liệt kê bài tập + lệnh chạy, tiện nhìn nhanh. Bạn có muốn không?
 ```
+
 
