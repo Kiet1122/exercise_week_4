@@ -1,53 +1,5 @@
 ```markdown
 # Flutter & Dart Exercises – Tuần 4
-```
-
-chứ không phải
-
-```markdown
-#Flutter & Dart Exercises – Tuần 4
-```
-
----
-
-### 2️⃣ Dấu `*` trong text
-
-* Nếu bạn muốn in **in đậm** (`**text**`) thì chắc chắn không có khoảng trắng giữa `**` và chữ.
-* Nếu có ký tự `*` trong câu bình thường (ví dụ: `* Section 1: GridView.count`), GitHub đôi khi hiểu nhầm là list item. Giải pháp: thêm dấu cách sau `*` hoặc dùng `-` thay cho `*` trong list.
-
-Ví dụ:
-
-```markdown
-- Section 1: `GridView.count` – số cột cố định 3, hình vuông.
-```
-
----
-
-### 3️⃣ Code block
-
-* Khi dùng block code, phải có **3 dấu backtick** ``` trước và sau, và có thể chỉ định ngôn ngữ:
-
-````markdown
-```bash
-flutter pub get
-````
-
-````
-
-- Không được bỏ dấu ``` trong nội dung.
-
----
-
-### 4️⃣ Cuối file
-- Không copy phần GitHub footer (`About, Resources, Stars…`) vào README. Chỉ giữ **nội dung Markdown** từ # Flutter… đến hết Notes/Lưu ý.
-
----
-
-### ✅ Phiên bản sửa tối ưu
-Bạn có thể copy lại README này:
-
-```markdown
-# Flutter & Dart Exercises – Tuần 4
 
 ## Giới thiệu
 
@@ -166,10 +118,6 @@ dart run lib/challenge2.dart
 * Có thể mở rộng thêm **UI đẹp hơn, progress indicator, hoặc lưu nhiều dữ liệu**.
 
 ```
-
----
-
-Nếu bạn copy nguyên bản này vào `README.md` trên GitHub, sẽ **không lỗi** và hiển thị đúng định dạng Markdown.  
-
 Mình có thể viết luôn **phiên bản siêu ngắn gọn 1 trang** cho README, chỉ liệt kê bài tập + lệnh chạy, tiện nhìn nhanh. Bạn có muốn không?
 ```
+
