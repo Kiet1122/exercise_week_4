@@ -1,4 +1,4 @@
-```markdown
+
 # Flutter & Dart Exercises - Tuần 4
 
 ## Giới thiệu
@@ -99,4 +99,3 @@ dart run lib/challenge2.dart
 - Mục 5.2 chạy **trong terminal**, không phải UI Flutter
 - Các bài tập giữ code **dễ hiểu cho người mới học**
 - Có thể mở rộng thêm UI đẹp hơn, progress indicator, hoặc lưu nhiều dữ liệu
-```
