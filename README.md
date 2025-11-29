@@ -1,5 +1,3 @@
-Tôi thấy có vấn đề với link ảnh và thiếu ảnh cho Challenge 2. Đây là bản sửa lại:
-
 # Flutter & Dart Exercises – Tuần 4
 
 ## Giới thiệu
@@ -166,4 +164,5 @@ dependencies:
   - Đã chạy `flutter pub get`
 * Code được tổ chức rõ ràng, dễ mở rộng
 * UI đơn giản, tập trung vào chức năng chính
+
 
