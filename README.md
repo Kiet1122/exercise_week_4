@@ -19,20 +19,25 @@ Mục tiêu là **luyện tập các widget cơ bản, lập trình bất đồn
 ## Ảnh minh họa
 
 ### Giao diện chính
-![Main Menu](https://images.unsplash.com/photo-1551650975-87deedd944c3?w=300&h=600&fit=crop)
+![Main Menu](https://res.cloudinary.com/dmnkakpnb/image/upload/v1764384144/ex4-1_jrb0tp.png)
 
 ### Danh sách liên hệ
-![Contact List](https://images.unsplash.com/photo-1587560699334-cc4ff634909a?w=300&h=600&fit=crop)
+![Contact List](https://res.cloudinary.com/dmnkakpnb/image/upload/v1764384144/ex4-2_mfslzw.png)
 
 ### Grid View
-![Grid View](https://images.unsplash.com/photo-1611262588024-d12430b98920?w=300&h=600&fit=crop)
+![Grid View](https://res.cloudinary.com/dmnkakpnb/image/upload/v1764384144/ex4-3_nzgztc.png)
 
 ### Shared Preferences
-![Shared Prefs](https://images.unsplash.com/photo-1563986768609-322da13575f3?w=300&h=600&fit=crop)
+![Shared Prefs](https://res.cloudinary.com/dmnkakpnb/image/upload/v1764384145/ex4-4_bsjg3x.png)
 
 ### Async Example
-![Async Demo](https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=300&h=600&fit=crop)
+![Async Demo](https://res.cloudinary.com/dmnkakpnb/image/upload/v1764384145/ex4-51_fce2om.png)
 
+### Challenge 1
+![Challenge 1 Demo](https://res.cloudinary.com/dmnkakpnb/image/upload/v1764384144/ex4-6_unrmm9.png)
+
+### Challenge 2
+![Challenge 2 Demo](https://res.cloudinary.com/dmnkakpnb/image/upload/v1764384445/ex4-8_xam6ww.png)
 ---
 
 ## Cấu trúc project
@@ -159,6 +164,6 @@ dependencies:
   - Kết nối internet để tải ảnh
   - Đường dẫn file có đúng cấu trúc
   - Đã chạy `flutter pub get`
-* Các bài tập được thiết kế **dễ hiểu cho người mới học**
 * Code được tổ chức rõ ràng, dễ mở rộng
 * UI đơn giản, tập trung vào chức năng chính
+
