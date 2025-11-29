@@ -9,7 +9,7 @@ class Contact {
 
 class SimpleContactScreen extends StatelessWidget {
   final List<Contact> danhSachLienHe = List.generate(
-    20,
+    10,
     (index) => Contact(
       ten: 'Bạn A ${index + 1}',
       thuDienTu: 'lienhe${index + 1}@email.com',
@@ -24,42 +24,40 @@ class SimpleContactScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Danh sách bạn bè'),
-        backgroundColor: const Color.fromARGB(255, 199, 211, 185),
+        backgroundColor: Colors.white,
+        elevation: 0,
         leading: IconButton(
-          icon: const Icon(
-            Icons.arrow_back_ios,
-            color: Color.fromARGB(255, 161, 123, 123),
-          ),
-          onPressed: () {
-            Navigator.pop(context);
-          },
+          icon: const Icon(Icons.arrow_back, color: Colors.black),
+          onPressed: () => Navigator.pop(context),
         ),
       ),
-
-      body: ListView.builder(
+      body: ListView.separated(
         itemCount: danhSachLienHe.length,
+        separatorBuilder: (context, index) => Divider(height: 1, color: Colors.grey[300]),
         itemBuilder: (context, index) {
           final contactHienTai = danhSachLienHe[index];
           return ListTile(
             leading: CircleAvatar(
-              backgroundColor: Colors.pink[100],
-              child: const Icon(Icons.star, color: Colors.red),
+              backgroundColor: Colors.blue[50],
+              child: Text(
+                contactHienTai.ten.substring(0, 1),
+                style: TextStyle(
+                  color: Colors.blue[700],
+                  fontWeight: FontWeight.w500,
+                ),
+              ),
             ),
             title: Text(
               contactHienTai.ten,
-              style: const TextStyle(fontWeight: FontWeight.bold),
+              style: TextStyle(fontWeight: FontWeight.w500),
             ),
             subtitle: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(contactHienTai.thuDienTu),
-                Text('SĐT: ${contactHienTai.sdt}'),
+                Text('0${contactHienTai.sdt}'),
               ],
             ),
-            trailing: const Icon(Icons.chat_bubble_outline),
-            onTap: () {
-              print('Bạn đã nhấp vào ${contactHienTai.ten}');
-            },
           );
         },
       ),
